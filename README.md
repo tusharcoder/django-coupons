@@ -1,3 +1,9 @@
+solve ImportError: cannot import name 'patterns' error which comes when using pip install django-coupons in django 1.10
+so clone this project, run python setup.py sdist
+this creates dist folder inside that folder you have django-coupons-1.2.0a3.tar.gz file.
+Now in your project install it as pip install <path to django-coupons-1.2.0a3.tar.gz file>.
+Now run migrate and you are good to go with no errors.
+
 #django-coupons
 
 ![build status](https://travis-ci.org/byteweaver/django-coupons.png)
